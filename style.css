@@ -42,13 +42,26 @@ header > div {
     box-shadow: 8px 8px 0rgba;
     font-size: 12px;
     color: white;
-    width: 50px;
-    height: 20px
+    width: 60px;
+    height: 30px;
+    border: white;
   }
 
   .NPM {
     width: 100px;
     margin-right: 1rem;
+  }
+
+  .Join {
+    width: 60px;
+    height: 30px;
+    background-color: white;
+  }
+
+  .Url {
+    color: black;
+    text-decoration: none;
+    
   }
 
   .firstsection {
@@ -77,29 +90,33 @@ header > div {
     justify-content: center;
     text-align: center;
     align-items: center;
+    text-decoration: none;
     background-color: #FB3B49;
     box-shadow: 8px 8px 0rgba;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
-    width: 300px;
-    height: 100px
-    
+    width: 250px;
+    height: 50px;
     
   }
 
   .joinForFree {
     text-decoration: none;
     color: black;
+    background-color: white;
+    font-size: 20px;
+    width: 250px;
+    height: 50px
   }
 
   .buttonAndLink {
     display: flex;
     flex-direction: row;
-    margin-right: 32rem;
-    margin-left: 32rem;
     justify-content: space-between;
     align-items: center;
-    
+    position: relative;
+    margin-right: 25rem;
+    margin-left: 25rem;
   }
 
 .Triangle-hexagon {
@@ -134,7 +151,6 @@ header > div {
 
 .Zeroconfiguration {
   width: 40px;
- 
 }
 
 .finalh21 {
@@ -143,8 +159,6 @@ header > div {
   align-items: center;
   font-size: 15px;
   color: #ED1C24;
-
-
 }
 
 .finalh31 {
@@ -152,7 +166,6 @@ header > div {
   justify-content: center;
   align-items: center;
   font-size: 10px;
-
 }
 
 .Finalimages1 {
@@ -162,7 +175,6 @@ header > div {
 
 .teamManagent {
   width: 40px;
-
 }
 
 .finalh22 {
@@ -179,7 +191,6 @@ header > div {
   align-items: center;
   font-size: 10px;
   text-justify: inter-word;
-
 }
 
 .Finalimages2 {
@@ -189,7 +200,6 @@ header > div {
 
 .familiarFeatures {
   width: 40px;
-
 }
 
 .finalh23 {
@@ -205,7 +215,6 @@ header > div {
   justify-content: center;
   align-items: center;
   font-size: 10px;
-
 }
 
 .Finalimages3 {
@@ -215,7 +224,6 @@ header > div {
 
 .npmAudit {
   width: 40px;
- 
 }
 
 .finalh24{
@@ -231,7 +239,6 @@ header > div {
   justify-content: center;
   align-items: center;
   font-size: 10px;
- 
 }
 
 .Finalimages4 {
@@ -246,18 +253,22 @@ justify-content: center;
 align-items: center;
 margin-top: 5rem;
 margin-bottom: 5rem;
-
 }
 
 .buttonOrg {
   display: flex;
-  justify-content: center;
+  align-content: center;
   align-items: center;
+  justify-content: center;
+  position:relative;
+  font-size: 15px;
   background-color: black;
-  box-shadow: 8px 8px 0rgba(128,83,35,.2);
-  font-size: 20px;
   color: white;
-  width: 200px;
-  height: 50px
-  
+  height:50px; 
+  width:250px; 
+  margin: -20px -50px; 
+  top:50%; 
+  left:50%;
+  margin-bottom: 5rem;
+ 
 }
